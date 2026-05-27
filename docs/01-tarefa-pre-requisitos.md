@@ -36,11 +36,16 @@ Configurar a máquina virtual no Oracle VM VirtualBox de forma compatível com a
 
 ### 📸 [EVIDÊNCIA]
 *Insira aqui uma captura de tela da aba "Armazenamento" do VirtualBox, mostrando a árvore de dispositivos com a Controladora IDE, o arquivo VDI e a ISO do XP montada.*
+<img width="591" height="67" alt="Captura de tela 2026-05-27 083755" src="https://github.com/user-attachments/assets/5fd39285-1cf6-4c1d-b747-52e1a609c547" />
+
 
 ### ❓ [QUESTÃO 1]
 O VirtualBox permite o uso de controladoras do tipo SATA, IDE, SCSI e SAS. Por que para sistemas operacionais modernos (como Windows 11) a controladora SATA/NVMe é o padrão, enquanto para o Windows XP fomos obrigados a criar manualmente uma controladora IDE?
 
-**Sua Resposta:**
+**Sua Resposta:** 
+O Windows XP (2001) é antigo e só sabe conversar com a tecnologia da sua época, que era o IDE. Ele não tem os drivers para entender o que é SATA ou NVMe. Se você não colocar uma controladora IDE, ele não encontra o disco e dá a famosa "Tela Azul".
+
+O Windows 11 (Atual) é moderno e já vem de fábrica com todos os drivers para SATA e NVMe. Ele foi feito para ser rápido e rodar em SSDs, então o padrão dele são essas controladoras modernas. Ele nem aceitaria o IDE por ser uma tecnologia obsoleta e lenta demais para os padrões de hoje.
 > 
 
 ---
