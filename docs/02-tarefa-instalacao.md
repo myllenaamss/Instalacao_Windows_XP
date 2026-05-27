@@ -36,11 +36,14 @@ Interagir com o instalador em modo texto dentro do ambiente virtualizado do Virt
 
 ### 📸 [EVIDÊNCIA]
 *Insira aqui uma captura de tela da janela do VirtualBox mostrando o desktop do Windows XP inicializado pela primeira vez com o papel de parede clássico (Bliss).*
+<img width="1652" height="706" alt="Captura de tela 2026-05-27 081843" src="https://github.com/user-attachments/assets/66cafdf3-ce67-461a-b5b4-920a3142d529" />
+
 
 ### ❓ [QUESTÃO 2]
 Se por engano você pressionasse uma tecla quando a VM reiniciou entre a Fase 1 e a Fase 2, o que aconteceria com o fluxo da atividade? O instalador continuaria de onde parou ou reiniciaria o processo do zero?
 
-**Sua Resposta:**
+**Sua Resposta:** 
+O que acontece depende inteiramente do tipo de instalador e de qual tecla foi pressionada, mas no cenário mais comum de instalação de sistemas operacionais (como Windows ou Linux)
 > 
 
 ---
